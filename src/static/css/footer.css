@@ -1,0 +1,259 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 70px;
+    background-color: var(--bodyColors);
+}
+
+.page-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px dashed gainsboro;
+    padding-bottom: 50px;
+    margin-bottom: 25px;
+}
+
+.logo-descripcion{
+    width: 510px;
+}
+
+.logo-descripcion > .descripcion > p{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.logo-descripcion > .descripcion > p > i{
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.categories-footer{
+    width: 350px;
+    margin: 0 25px;
+}
+
+.categories-footer > ul{
+    list-style: none;
+}
+
+
+.categories-footer > ul > li{
+    margin: 10px 0;
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--iconsColors);
+}
+
+.wapp{
+    padding-bottom: 15px;
+    border-bottom: 2px dashed gainsboro;
+}
+
+.wapp > p{
+    display: flex;
+    align-items: center;
+}
+
+.wapp > p > i{
+    font-size: 20px;
+}
+
+.number{
+    padding-left: 13px;
+}
+
+.img{
+    width: 160px;
+}
+
+
+/* ------------------ PAYMENTS METHODS -------------------------- */
+
+.payment-methods{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.payments{
+    list-style: none;
+    display: flex;
+}
+
+.payments > li{
+    margin: 0 10px;
+    padding: 0 9px;
+    border: 2px solid gainsboro;
+}
+
+.payments > li > img{
+    width: 25px;
+}
+
+.social-media{
+    list-style: none;
+    display: flex;
+}
+
+.social-media > li{
+    margin: 0 10px;
+}
+
+.social-media > li > i{
+    color: var(--iconsColors);
+    font-size: 20px;
+}
+
+
+
+/* ----------------------------- MEDIA QUERIES -------------------------------- */
+
+@media screen and (max-width: 830px) {
+    .page-info{
+        flex-wrap: wrap;
+    }
+
+    .categories-footer{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+
+
+    footer{
+        padding: 30px 30px;
+    }
+
+    .logo-descripcion{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .descripcion{
+        text-align: center;
+    }
+
+    .page-info{
+        flex-wrap: wrap;
+    }
+
+    .categories-footer{
+        width: 250px;
+    }
+
+    .payments > li{
+        padding: 0;
+        margin: 0;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 663px) {
+    footer{
+        padding: 30px 30px;
+    }
+
+    .logo-descripcion{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .descripcion{
+        text-align: center;
+    }
+
+    .page-info{
+        flex-wrap: wrap;
+    }
+
+    .categories-footer{
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    footer{
+        padding: 30px 30px;
+    }
+
+    .logo-descripcion{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .descripcion{
+        text-align: center;
+    }
+
+    .page-info{
+        flex-wrap: wrap;
+    }
+
+    .categories-footer{
+        width: 140px;
+    }
+
+    .payment-methods{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 438px) {
+    footer{
+        padding: 30px 30px;
+    }
+
+    .logo-descripcion{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .descripcion{
+        text-align: center;
+    }
+
+    .page-info{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .categories-footer{
+        width: 155px;
+        margin: 20px 0;
+    }
+
+    .payment-methods{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .payments{
+        margin: 20px 0;
+    }
+    
+    .social-media{
+        margin: 20px 0;
+    }
+}

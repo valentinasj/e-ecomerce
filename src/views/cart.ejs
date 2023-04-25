@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/cuerpo.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Cart | FastKart</title>
+</head>
+<body>
+    <header class="all-header">
+        <div class="country-info">
+            <div class="parrafo-divisa">
+                <p>Something you love is now on sale! <a href="">Buy Now !</a></p>
+            </div>
+            <div class="idioma-moneda">
+                <div class="idioma">
+                    <img src="./images/USA.png" alt="">
+                    <select name="country" id="country">
+                        <option value="English">English</option>
+                    </select>
+                </div>
+                <div class="moneda">
+                    <select name="modena" id="moneda">
+                        <option value="USD">USD</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="first-header-nav">
+            <div class="header-title">
+                <h1>FastKart</h1>
+            </div>
+
+            <div class="location-search">
+                <button class="location-big-btn"><i class="ri-map-pin-line location-btn"></i></button>
+                <div class="search-bar">
+                    <input type="text" name="search" id="search" placeholder="I'm searching for...">
+                    <button class="search-btn"><i class="ri-search-line"></i></button>
+                </div>
+            </div>
+
+            <div class="header-controls">
+                <ul class="elements">
+                    <li><a href=""><i class="ri-phone-line"></i></a></li>
+                    <li><a href="/fav"><i class="ri-heart-line"></i></a></li>
+                    <li class="cart"> 
+                        <div class="elements-lenght">
+                        </div> 
+                        <a href="/cart"><i class="ri-shopping-cart-line"></i></a>
+                        <div class="cart-menu">
+                            <div class="cart-products">
+
+                            </div>
+                            <div class="buy-info">
+                                <div class="total-price">
+                                    <p class="total">Total :</p>
+                                    <p class="price"></p>
+                                </div>
+                                <div class="buy-buttons">
+                                    <a href="/cart" class="see-cart cart-btn">View Cart</a>
+                                    <a href="/cart" class="checkout cart-btn">Checkout</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="/admin"><i class="ri-user-3-line"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="third-header">
+            <button class="all-categories"><i class="ri-align-left"></i> All Categories</button>
+            <div class="options-group">
+                <select name="home" id="home">
+                    <option value="Home">Home</option>
+                </select>
+                <select name="Shop" id="shop">
+                    <option value="shop">Shop</option>
+                </select>
+                <select name="Product" id="product">
+                    <option value="product">Product</option>
+                </select>
+                <select name="Mega-Menu" id="megaMenu">
+                    <option value="megaMenu">Mega Menu</option>
+                </select>
+                <select name="Blog" id="blog">
+                    <option value="blog">Blog</option>
+                </select>
+                <select name="Pages" id="pages">
+                    <option value="pages">Pages</option>
+                </select>
+                <a href="/contact">Contact</a>
+            </div>
+            <button class="thunder-btn"><i class="ri-flashlight-line"></i></button>
+        </div>
+    </header>
+
+    <!-- --------------------------------------------- PATH BANNER ------------------------------------- -->
+
+    <div class="path-banner">
+        <h2>Cart</h2>
+        <div class="path-buttons">
+            <a href="/"><i class="ri-home-4-fill"></i></a>
+            <i class="ri-arrow-right-s-line"></i>
+            <a href="/cart"><strong>Cart</strong></a>
+        </div>
+    </div>
+
+    <main>
+        <div class="cart-body-products">
+            
+        </div>
+        
+        <div class="comprados">
+
+        </div>
+
+        <div class="pay-container">
+
+        </div>
+    </main>
+
+    <div class="formularioCompra oculto">
+        <div class="subformulario">
+            <h2>Completa la Información de la Compra</h2>
+            <input type="text" name="nombreUsuario" id="nombreUsuario" placeholder="Nombre">
+            <input type="text" name="direccion" id="direccion" placeholder="Direccion de Envio">
+            <input type="text" name="telefono" id="telefono" placeholder="Telefono">
+            <div class="cancelbtn">
+                <button class="cancelBuy">Cancel</button>
+                <input type="submit" class="buyBtn" value="Buy now">
+            </div>
+        </div>
+    </div>
+
+    <div class="msm">
+        <p class="p-msm"></p>
+    </div>
+
+    <div class="adminControls">
+        <a href="/admin" class="adminbtn"><i class="ri-settings-2-fill"></i></a>
+        <button class="adminbtn up"><i class="ri-arrow-up-s-line"></i></button>
+    </div>
+
+    <script src="./js/get-cart-products.js"></script>
+</body>
+</html>

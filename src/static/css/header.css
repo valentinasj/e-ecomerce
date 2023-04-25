@@ -1,0 +1,477 @@
+/* --------- HEADER DE LA DIVISA Y EL PAIS---------  */
+
+.all-header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.country-info{
+    background-color: var(--colorPrincipal);
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 100px;
+}
+
+.parrafo-divisa > p{
+    font-weight: 500;
+    color: white;
+}
+.parrafo-divisa > p > a {
+    font-weight: bold !important;
+    color: white;
+}
+
+.idioma-moneda{
+    display: flex;
+}
+
+.idioma{
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.idioma > img{
+    width: 23px;
+    margin-right: 7px;
+}
+
+.idioma > select{
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+
+.idioma::after{
+    content: "";
+    width: 1px;
+    height: 120%;
+    margin: 0 10px;
+    background-color: white;
+}
+
+.moneda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.moneda > select{
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+
+/* -------------------- PRIMER HEADER ---------------- */
+
+.first-header-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+}
+
+.location-search{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.location-big-btn{
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 50px;
+    padding-top: 3px;
+}
+
+.location-btn{
+    font-size: 18px;
+    border: none;
+    background-color: rgba(220, 220, 220, 0.502);
+    border-radius: 6px;
+    color: rgb(186, 186, 186);
+    padding: 5px;
+}
+
+.search-bar{
+    display: flex;
+}
+
+.search-bar > input{
+    width: 450px;
+    font-size: 16px;
+    padding-left: 10px;
+    border: none;
+    border-top: 1px solid rgb(196, 196, 196);
+    border-bottom: 1px solid rgb(196, 196, 196);
+    border-left: 1px solid rgb(196, 196, 196);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.search-btn{
+    width: 45px;
+    background-color: var(--colorSecundario);
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    cursor: pointer;
+}
+
+.elements{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    position: relative;
+}
+
+.elements > li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.elements > li > a{
+    font-size: 24px;
+    color: var(--iconsColors);
+    text-decoration: none;
+}
+
+.elements > li:nth-child(1)::after{
+    content: "";
+    position: absolute;
+    right: -13px;
+    width: 1px;
+    height: 70%;
+    background-color: rgb(179, 179, 179);
+}
+.elements > li:nth-child(2)::after{
+    content: "";
+    position: absolute;
+    right: -13px;
+    width: 1px;
+    height: 70%;
+    background-color: rgb(179, 179, 179);
+}
+.elements > li:nth-child(3)::after{
+    content: "";
+    position: absolute;
+    right: -13px;
+    width: 1px;
+    height: 70%;
+    background-color: rgb(179, 179, 179);
+}
+
+.cart{
+    position: relative;
+    z-index: 999;
+}
+
+.elements-lenght{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+    width: 15px;
+    height: 15px;
+    top: -4px;
+    right: -5px;
+    background-color: var(--colorTercero);
+    border-radius: 3px;
+}
+
+.cart:hover > .cart-menu{
+    visibility: visible;
+}
+
+.cart-menu{
+    visibility: hidden;
+    transition: 0.3s all ease;
+    position: absolute;
+    width: 370px;
+    height: 370px;
+    right: -10px;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    box-shadow: 0 0 15px rgba(128, 128, 128, 0.179);
+    border-radius: 12px;
+    background-color: white;
+}
+
+.cart-products{
+    width: 100%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.product-in-cart{
+    width: 100%;
+    height: auto;
+    min-height: 110px;
+    display: flex;
+    margin-bottom: 2px;
+}
+
+.cart-img{
+    width: 110px;
+}
+
+.cart-img > img{
+    width: 100px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.cart-product-info{
+    width: 195px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-product-info > .remove-product{
+    width: 25px;
+    height: 25px;
+    color: var(--iconsColors);
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.cart-product-info > .in-cart-name{
+    font-size: 18px;
+    color: var(--colorPrincipal);
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cart-product-info > .in-cart-amount-price{
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.buy-info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.total-price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.total{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.price{
+    font-size: 20px;
+    color: var(--colorPrincipal);
+    font-weight: 500;
+}
+
+.buy-buttons{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buy-buttons > .cart-btn{
+    width: 110px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.see-cart{
+    background: none;
+    font-weight: 500;
+    border: 3px solid var(--colorPrincipal);
+    border-radius: 6px;
+    color: var(--colorPrincipal);
+    text-decoration: none;
+}
+
+.checkout{
+    background-color: var(--colorPrincipal);
+    font-weight: 500;
+    border-radius: 6px;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+
+/* ----------------------- TERCER HEADER ------------------- */
+
+.third-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.all-categories{
+    width: 200px;
+    height: 45px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 35px;
+    color: white;
+    font-weight: 500;
+    background-color: var(--colorPrincipal);
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.options-group > select{
+    background: none;
+    border: none;
+    font-size: 18px;
+    margin: 0 10px;
+    color: var(--iconsColors);
+    cursor: pointer;
+}
+
+.options-group > a {
+    color: var(--iconsColors);
+    text-decoration: none;
+}
+
+.thunder-btn{
+    width: 50px;
+    height: 40px;
+    font-size: 26px;
+    color: var(--colorPrincipal);
+    background-color: #03b39047;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* ------------------- MEDIA QUERIES ----------------- */
+
+@media screen and (max-width: 1114px) {
+    .first-header-nav{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-title{
+        margin: 7px 0;
+    }
+    
+    .location-search{
+        margin: 7px 0;
+    }
+
+    .header-controls{
+        margin: 7px 0;
+    }
+
+    .third-header{
+        justify-content: center;
+    }
+
+    .all-categories{
+        margin: 7px 0;
+    }
+
+    .options-group{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 7px 0;
+    }
+
+    .thunder-btn{
+        margin: 7px 0;
+    }
+
+}
+
+@media screen and (max-width: 654px) {
+    .location-search{
+        width: 100%;
+    }
+
+    .location-big-btn{
+        margin-right: 5px;
+    }
+    
+    .search-bar > input{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    .country-info{
+        padding: 7px 10px;
+    }
+
+    .first-header-nav{
+        padding: 7px 10px;
+    }
+
+    .third-header{
+        padding: 7px 10px;
+    }
+}
+
+@media screen and (max-width: 326px) {
+
+    .country-info{
+        justify-content: center;
+    }
+
+    .parrafo-divisa{
+        display: none;
+    }
+}

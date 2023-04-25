@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/cuerpo.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Home | FastKart</title>
+</head>
+<body>
+    <header class="all-header">
+        <div class="country-info">
+            <div class="parrafo-divisa">
+                <p>Something you love is now on sale! <a href="">Buy Now !</a></p>
+            </div>
+            <div class="idioma-moneda">
+                <div class="idioma">
+                    <img src="./images/USA.png" alt="">
+                    <select name="country" id="country">
+                        <option value="English">English</option>
+                    </select>
+                </div>
+                <div class="moneda">
+                    <select name="modena" id="moneda">
+                        <option value="USD">USD</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="first-header-nav">
+            <div class="header-title">
+                <h1>FastKart</h1>
+            </div>
+
+            <div class="location-search">
+                <button class="location-big-btn"><i class="ri-map-pin-line location-btn"></i></button>
+                <div class="search-bar">
+                    <input type="text" name="search" id="search" placeholder="I'm searching for...">
+                    <button class="search-btn"><i class="ri-search-line"></i></button>
+                </div>
+            </div>
+
+            <div class="header-controls">
+                <ul class="elements">
+                    <li><a href=""><i class="ri-phone-line"></i></a></li>
+                    <li><a href="/fav"><i class="ri-heart-line"></i></a></li>
+                    <li class="cart"> 
+                        <div class="elements-lenght">
+                        </div> 
+                        <a href="/cart"><i class="ri-shopping-cart-line"></i></a>
+                        <div class="cart-menu">
+                            <div class="cart-products">
+
+                            </div>
+                            <div class="buy-info">
+                                <div class="total-price">
+                                    <p class="total">Total :</p>
+                                    <p class="price"></p>
+                                </div>
+                                <div class="buy-buttons">
+                                    <a href="/cart" class="see-cart cart-btn">View Cart</a>
+                                    <a href="/cart" class="checkout cart-btn">Checkout</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="/admin"><i class="ri-user-3-line"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="third-header">
+            <button class="all-categories"><i class="ri-align-left"></i> All Categories</button>
+            <div class="options-group">
+                <select name="home" id="home">
+                    <option value="Home">Home</option>
+                </select>
+                <select name="Shop" id="shop">
+                    <option value="shop">Shop</option>
+                </select>
+                <select name="Product" id="product">
+                    <option value="product">Product</option>
+                </select>
+                <select name="Mega-Menu" id="megaMenu">
+                    <option value="megaMenu">Mega Menu</option>
+                </select>
+                <select name="Blog" id="blog">
+                    <option value="blog">Blog</option>
+                </select>
+                <select name="Pages" id="pages">
+                    <option value="pages">Pages</option>
+                </select>
+                <a href="/contact">Contact</a>
+            </div>
+            <button class="thunder-btn"><i class="ri-flashlight-line"></i></button>
+        </div>
+    </header>
+
+
+    <!-- ------------------------------------------ FIN DEL HEADER ------------------------------------>
+
+
+
+    <main>
+        <article class="discounts-banner">
+            <div class="first-images">
+                <div class="big-image">
+                    <img src="./images/v3g5.png" alt="">
+                    <div class="img-info">
+                        <div class="uno">
+                            <p>Exclusive offer</p>
+                            <p class="discount-porcentaje">30% Off</p>
+                        </div>
+                        <div class="dos">
+                            <h2 class="imgTitle">STAY HOME & <br> DELIVERED YOUR <br> <h2 class="t-dif">DAILY NEEDS</h2></h2>
+                        </div>
+                        <div class="tres">
+                            <p>Vegetables contain many vitamins and <br> minerals that are good for yout health</p>
+                        </div>
+                        <div class="cuatro">
+                            <button>Shop Now <i class="ri-arrow-right-line"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="small-images">
+                    <img src="./images/veg2.png" alt="">
+                    <div class="img-info-2">
+                        <div class="cinco">
+                            <div class="p-info">
+                                <p class="disc-p">5% OFF</p>
+                                <h3>Hot Deals on New Items</h3>
+                                <p class="p-img">Daily Essentials Eggs & Dairy</p>
+                            </div>
+                            <button class="shop-now">Shop Now <i class="ri-arrow-right-line"></i></button>
+                        </div>
+                    </div>
+                    <img src="./images/veg3.png" alt="">
+                    <div class="img-info-2 dif-1">
+                        <div class="cinco">
+                            <div class="p-info">
+                                <p class="disc-p">5% OFF</p>
+                                <h3>Buy More & Save More</h3>
+                                <p class="p-img">Fresh Vegetables</p>
+                            </div>
+                            <button class="shop-now">Shop Now <i class="ri-arrow-right-line"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="second-images">
+                <img src="./images/veg4.png" alt="">
+                <div class="img-info-2 dif-3">
+                    <div class="cinco">
+                        <div class="p-info">
+                            <p class="disc-p">45% <span class="p-small">OFF</span></p>
+                            <h3>Nut Collection</h3>
+                            <p class="p-img">We deliver organic <br> vegetables & fruits</p>
+                        </div>
+                        <button class="shop-now">Shop Now <i class="ri-arrow-right-line"></i></button>
+                    </div>
+                </div>
+                <img src="./images/veg5.png" alt="">
+                <div class="img-info-2 dif-4">
+                    <div class="cinco">
+                        <div class="p-info">
+                            <h3>Healthy Food</h3>
+                            <h3>Organic Market</h3>
+                            <p class="p-img">Start your daily <br> shopping with some...</p>
+                        </div>
+                        <button class="shop-now">Shop Now <i class="ri-arrow-right-line"></i></button>
+                    </div>
+                </div>
+                <img src="./images/veg6.png" alt="">
+                <div class="img-info-2 dif-5">
+                    <div class="cinco">
+                        <div class="p-info">
+                            <p class="disc-p">5% OFF</p>
+                            <h3>Organic Meat Prepared</h3>
+                            <p class="p-img">Delivered to Your Home</p>
+                        </div>
+                        <button class="shop-now">Shop Now <i class="ri-arrow-right-line"></i></button>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- ----------------------------------- FIN DEL BANNER ---------------------- -------------------->
+
+        <article class="all-products">
+            <aside class="menu-categories">
+                <button class="open-close-categories"><h2>Category</h3></button>
+
+                <ul class="category-list">
+                    <li><button class="veg"><img src="./images/iconos/frutas.png" alt=""> Vegetable & Fruit</button></li>
+                    <li><button class="beve"><img src="./images/iconos/cafe.png" alt=""> Beverages</button></li>
+                    <li><button class="meats"><img src="./images/iconos/carne.png" alt=""> Meats & Seafood</button></li>
+                    <li><button class="break"><img src="./images/iconos/pan.png" alt=""> Breakfast & Dairy</button></li>
+                    <li><button class="frozen"><img src="./images/iconos/copo.png" alt=""> Frozen Foods</button></li>
+                    <li><button class="bis"><img src="./images/iconos/papas.png" alt=""> Biscuits & Snacks</button></li>
+                    <li><button class="grocery"><img src="./images/iconos/ingredientes.png" alt=""> Grocery & Staples</button></li>
+                    <li><button class="wines"><img src="./images/iconos/vino.png" alt=""> Wines & Alcohol Drinks</button></li>
+                </ul>
+            </aside>
+
+            <!-- ---------------------------------- PRODUCTS BANNER ------------------------------ -->
+
+            <div class="products">
+                <div class="products-banner">
+                    <div class="banner-info">
+                        <h2>Top Save Today</h2>
+                        <div class="plant-banner">
+                            <hr>
+                            <i class="ri-seedling-line"></i>
+                            <hr>
+                        </div>
+                        <p>Don't miss this opportunity at a special discount just for this <br> week.</p>
+                    </div>
+                    <div class="contador">
+                        <div class="parametros">
+                            <i class="ri-time-line"></i>
+                            <p>Expires in:</p>
+                            <p class="days"></p>
+                            <p class="hours"></p>
+                            <p class="minutes"></p>
+                            <p class="seconds"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--  ------------------------------- PRODUCTS CARDS ----------------------------------- -->
+
+                <div class="products-container">
+                    
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <!-- --------------------------------------------- FOOTER ------------------------------------- -->
+
+    <footer>
+        <div class="page-info">
+            <div class="logo-descripcion">
+                <h1>FastKart</h1>
+                <div class="descripcion">
+                    <p>In publishing and graphic desing, Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quod, alias in non optio neque quas eveniet</p>
+                    <p><i class="ri-home-4-line"></i> 1418 Riverwood Drive. CA 96052, US</p>
+                    <p><i class="ri-mail-line"></i> support@fastkart.com</p>
+                </div>
+            </div>
+            <div class="categories-footer">
+                <h3>Categories</h3>
+                <ul>
+                    <li>Vegetable & Fruit</li>
+                    <li>Beverages</li>
+                    <li>Meats & Seafood</li>
+                    <li>Breakfast & Dairy</li>
+                    <li>Frozen Foods</li>
+                    <li>Biscuits & Snacks</li>
+                    <li>Grocery & Staples</li>
+                </ul>
+            </div>
+            <div class="categories-footer">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>Shop</li>
+                    <li>About Us</li>
+                    <li>Blog</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="categories-footer">
+                <h3>Help Center</h3>
+                <ul>
+                    <li>Your Order</li>
+                    <li>Your Account</li>
+                    <li>Track Order</li>
+                    <li>Your Whishlist</li>
+                    <li>Search</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+            <div class="categories-footer">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li class="wapp">
+                        <p><i class="ri-phone-line"></i> Hotline 24/7:</p>
+                        <strong class="number">+91 888 104 2340</strong>
+                    </li>
+                    <li class="wapp">
+                        <p><i class="ri-mail-line"></i> Email Addres</p>
+                        <strong class="number">support@fastkart.com</strong>
+                    </li>
+                    <li class="footer-img">
+                        <p>Download App:</p>
+                        <img class="img play" src="./images/play.png" alt="">
+                        <img class="img app" src="./images/appstore.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="payment-methods">
+            <p>&#169;2022 FastKart All rights reserved</p>
+            <div class="payments">
+                <li><img src="./images/iconos/pp.png" alt=""></li>
+                <li><img src="./images/iconos/visa.png" alt=""></li>
+                <li><img src="./images/iconos/master.png" alt=""></li>
+                <li><img src="./images/iconos/stripe.png" alt=""></li>
+                <li><img src="./images/iconos/aE.png" alt=""></li>
+            </div>
+            <div class="social-media">
+                <p>Stay Conected: </p>
+                <li><i class="ri-facebook-fill"></i></li>
+                <li><i class="ri-twitter-fill"></i></li>
+                <li><i class="ri-instagram-line"></i></li>
+                <li><i class="ri-pinterest-line"></i></li>
+            </div>
+        </div>
+    </footer>
+
+    <div class="msm">
+        <p class="p-msm"><i class="ri-error-warning-line"></i> Se ha agregado a favoritos</p>
+    </div>
+
+    <div class="adminControls">
+        <a href="/admin" class="adminbtn"><i class="ri-settings-2-fill"></i></a>
+        <button class="adminbtn up"><i class="ri-arrow-up-s-line"></i></button>
+    </div>
+    <script src="./js/getProductos.js"></script>
+</body>
+</html>

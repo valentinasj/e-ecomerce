@@ -1,0 +1,694 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "title": "Paquete de Avocados x5",
+      "rutaImg": "./images/avocado.png",
+      "precio": 7.16,
+      "RealPrice": 10.5,
+      "gramosUnidades": "5 unidades",
+      "autor": "Ana",
+      "categoriaId": 1
+    },
+    {
+      "id": 2,
+      "title": "Bolsa de Brocoli",
+      "rutaImg": "./images/brocoli.png",
+      "precio": 23.1,
+      "RealPrice": 26.5,
+      "gramosUnidades": "1 unidad",
+      "autor": "Luis",
+      "categoriaId": 1
+    },
+    {
+      "id": 4,
+      "title": "Camarones 500G",
+      "rutaImg": "./images/camarones.png",
+      "precio": 10.71,
+      "RealPrice": 13.23,
+      "gramosUnidades": "500G",
+      "autor": "Andrea",
+      "categoriaId": 3
+    },
+    {
+      "id": 5,
+      "title": "Carne de res, 500G",
+      "rutaImg": "./images/carne-res.png",
+      "precio": 12.32,
+      "RealPrice": 15.5,
+      "gramosUnidades": "500G",
+      "autor": "Ana",
+      "categoriaId": 3
+    },
+    {
+      "id": 6,
+      "title": "Cereal FrootLoops 800G",
+      "rutaImg": "./images/cereal.png",
+      "precio": 8.24,
+      "RealPrice": 11.27,
+      "gramosUnidades": "800G",
+      "autor": "Luis",
+      "categoriaId": 4
+    },
+    {
+      "id": 7,
+      "title": "Six Pack de cervezas Corona",
+      "rutaImg": "./images/cerveza.png",
+      "precio": 15.58,
+      "RealPrice": 17.69,
+      "gramosUnidades": "6 unidades",
+      "autor": "Andrea",
+      "categoriaId": 8
+    },
+    {
+      "id": 8,
+      "title": "Bandeja de Champiñones 300G",
+      "rutaImg": "./images/champiñones.png",
+      "precio": 9.49,
+      "RealPrice": 12.23,
+      "gramosUnidades": "300G",
+      "autor": "Andrea",
+      "categoriaId": 1
+    },
+    {
+      "id": 9,
+      "title": "Paquete de rodajas de queso",
+      "rutaImg": "./images/cheese.png",
+      "precio": 3.5,
+      "RealPrice": 6.35,
+      "gramosUnidades": "400G",
+      "autor": "Luis",
+      "categoriaId": 4
+    },
+    {
+      "id": 10,
+      "title": "Bandeja de chicharron",
+      "rutaImg": "./images/chicharron.png",
+      "precio": 12.25,
+      "RealPrice": 14.82,
+      "gramosUnidades": "600G",
+      "autor": "Ana",
+      "categoriaId": 3
+    },
+    {
+      "id": 11,
+      "title": "Paquete de Cilantro",
+      "rutaImg": "./images/cilantro.png",
+      "precio": 2.15,
+      "RealPrice": 5.63,
+      "gramosUnidades": "200G",
+      "autor": "Andrea",
+      "categoriaId": 1
+    },
+    {
+      "id": 12,
+      "title": "Paquete de Croassants x15",
+      "rutaImg": "./images/croasants.png",
+      "precio": 17.85,
+      "RealPrice": 19.72,
+      "gramosUnidades": "15 unidades",
+      "autor": "Andrea",
+      "categoriaId": 4
+    },
+    {
+      "id": 13,
+      "title": "Helado Coreano de Limon",
+      "rutaImg": "./images/helado-coreano.png",
+      "precio": 20.99,
+      "RealPrice": 23.12,
+      "gramosUnidades": "200G",
+      "autor": "Luis",
+      "categoriaId": 5
+    },
+    {
+      "id": 15,
+      "title": "Media Canasta de huevos x15",
+      "rutaImg": "./images/huevos.png",
+      "precio": 7.28,
+      "RealPrice": 10.7,
+      "gramosUnidades": "15 unidades",
+      "autor": "Ana",
+      "categoriaId": 7
+    },
+    {
+      "id": 16,
+      "title": "Bolsa de Mangos x2",
+      "rutaImg": "./images/mango.png",
+      "precio": 1.17,
+      "RealPrice": 4.46,
+      "gramosUnidades": "300G",
+      "autor": "Andrea",
+      "categoriaId": 1
+    },
+    {
+      "id": 18,
+      "title": "Postre de gelatina Mochis",
+      "rutaImg": "./images/mochis.png",
+      "precio": 23.59,
+      "RealPrice": 26.28,
+      "gramosUnidades": "800G",
+      "autor": "Luis",
+      "categoriaId": 6
+    },
+    {
+      "id": 19,
+      "title": "Bedida Energetica en lata Monster 600ml",
+      "rutaImg": "./images/monster.png",
+      "precio": 3.31,
+      "RealPrice": 6.42,
+      "gramosUnidades": "600ml",
+      "autor": "Ana",
+      "categoriaId": 2
+    },
+    {
+      "id": 20,
+      "title": "Six Pack de Gaseosas Coca-Cola",
+      "rutaImg": "./images/moral.png",
+      "precio": 13.28,
+      "RealPrice": 16.37,
+      "gramosUnidades": "6 unidades",
+      "autor": "Luis",
+      "categoriaId": 2
+    },
+    {
+      "id": 21,
+      "title": "Bolsa de pastas 400G",
+      "rutaImg": "./images/pasta.png",
+      "precio": 23.99,
+      "RealPrice": 26.8,
+      "gramosUnidades": "400g",
+      "autor": "Julieta",
+      "categoriaId": 7
+    },
+    {
+      "id": 22,
+      "title": "Snack en palito Pocky 100G",
+      "rutaImg": "./images/pocky.png",
+      "precio": 5.37,
+      "RealPrice": 8.72,
+      "gramosUnidades": "100g",
+      "autor": "Andrea",
+      "categoriaId": 6
+    },
+    {
+      "id": 23,
+      "title": "Bandeja de Pollo en rebanadas x12",
+      "rutaImg": "./images/pollito.png",
+      "precio": 10.82,
+      "RealPrice": 13.5,
+      "gramosUnidades": "12 rebanadas",
+      "autor": "Julieta",
+      "categoriaId": 3
+    },
+    {
+      "id": 24,
+      "title": "Bote grande de papas Pringles 200G",
+      "rutaImg": "./images/pringles.png",
+      "precio": 6.12,
+      "RealPrice": 9.56,
+      "gramosUnidades": "200g",
+      "autor": "Luis",
+      "categoriaId": 6
+    },
+    {
+      "id": 25,
+      "title": "Bote de Ramen Pincante 300G",
+      "rutaImg": "./images/ramen.png",
+      "precio": 4.99,
+      "RealPrice": 7.8,
+      "gramosUnidades": "300g",
+      "autor": "Andrea",
+      "categoriaId": 7
+    },
+    {
+      "id": 26,
+      "title": "Bandeja de Raspberries 200G",
+      "rutaImg": "./images/raspberries.png",
+      "precio": 2.15,
+      "RealPrice": 6.22,
+      "gramosUnidades": "200g",
+      "autor": "Julieta",
+      "categoriaId": 1
+    },
+    {
+      "id": 27,
+      "title": "Bandeja de recortes de Salmon x4",
+      "rutaImg": "./images/salmon.png",
+      "precio": 17.9,
+      "autor": "Andrea",
+      "categoriaId": 3,
+      "RealPrice": 21.18,
+      "gramosUnidades": "4 x 100g"
+    },
+    {
+      "id": 28,
+      "title": "Bandeja de Tomates 150G",
+      "rutaImg": "./images/tomates.png",
+      "precio": 8.19,
+      "autor": "Julieta",
+      "categoriaId": 1,
+      "RealPrice": 11.27,
+      "gramosUnidades": "150g"
+    },
+    {
+      "id": 29,
+      "title": "Botella de Vino Rojo 1L",
+      "rutaImg": "./images/vino.png",
+      "precio": 1.16,
+      "autor": "Andrea",
+      "categoriaId": 8,
+      "RealPrice": 5.6,
+      "gramosUnidades": "1L"
+    },
+    {
+      "id": 30,
+      "title": "Bote grande de Helado oreo Brownie",
+      "rutaImg": "./images/helado-oreo.png",
+      "precio": 14.16,
+      "autor": "Julieta",
+      "categoriaId": 5,
+      "RealPrice": 17.6,
+      "gramosUnidades": "500g"
+    },
+    {
+      "title": "Botella de agua 500ml",
+      "rutaImg": "./images/agua.png",
+      "precio": 1.3,
+      "RealPrice": 2.15,
+      "gramosUnidades": "500ml",
+      "autor": "Pedro",
+      "categoriaId": 2,
+      "id": 31
+    },
+    {
+      "title": "Paquetico de cabezas de ajo x10",
+      "rutaImg": "./images/ajos.png",
+      "precio": 1.00,
+      "RealPrice": 2.10,
+      "gramosUnidades": "x10",
+      "autor": "Pedro",
+      "categoriaId": 1,
+      "id": 32
+    },
+    {
+      "title": "Caja de pan tajado 30x",
+      "rutaImg": "./images/breakfast1.png",
+      "precio": 3.53,
+      "RealPrice": 6.10,
+      "gramosUnidades": "x30",
+      "autor": "Pedro",
+      "categoriaId": 4,
+      "id": 33
+    },
+    {
+      "title": "Bolsa de harina 600G",
+      "rutaImg": "./images/breakfast2.png",
+      "precio": 4.70,
+      "RealPrice": 6.32,
+      "gramosUnidades": "600G",
+      "autor": "Pedro",
+      "categoriaId": 4,
+      "id": 34
+    },
+    {
+      "title": "Caja de Zucaritas Kellogs 600G",
+      "rutaImg": "./images/breakfast3.png",
+      "precio": 7.30,
+      "RealPrice": 9.10,
+      "gramosUnidades": "600G",
+      "autor": "Pedro",
+      "categoriaId": 4,
+      "id": 35
+    },
+    {
+      "title": "Caja de de Ojuelas Quaker 600G",
+      "rutaImg": "./images/breakfast4.png",
+      "precio": 8.30,
+      "RealPrice": 10.27,
+      "gramosUnidades": "600G",
+      "autor": "Pedro",
+      "categoriaId": 4,
+      "id": 36
+    },
+    {
+      "title": "Bolsa de Pan Molido Quaker 400G",
+      "rutaImg": "./images/breakfast5.png",
+      "precio": 5.27,
+      "RealPrice": 9.10,
+      "gramosUnidades": "400G",
+      "autor": "Pedro",
+      "categoriaId": 4,
+      "id": 37
+    },
+    {
+      "title": "Lata de cerveza Budweiser 350ml",
+      "rutaImg": "./images/budweiser.png",
+      "precio": 2.32,
+      "RealPrice": 4.06,
+      "gramosUnidades": "350ml",
+      "autor": "Pedro",
+      "categoriaId": 8,
+      "id": 38
+    },
+    {
+      "title": "Bandeja de Filete de Res 1x",
+      "rutaImg": "./images/carnes1.png",
+      "precio": 4.32,
+      "RealPrice": 6.06,
+      "gramosUnidades": "1x",
+      "autor": "Pedro",
+      "categoriaId": 3,
+      "id": 39
+    },
+    {
+      "title": "Bandeja de Filetes de Barriga de res 6x",
+      "rutaImg": "./images/carnes2.png",
+      "precio": 10.60,
+      "RealPrice": 13.23,
+      "gramosUnidades": "6x",
+      "autor": "Pedro",
+      "categoriaId": 3,
+      "id": 40
+    },
+    {
+      "title": "Bandeja de Filetes Vendella Mama's 2x",
+      "rutaImg": "./images/carnes3.png",
+      "precio": 7.49,
+      "RealPrice": 10.23,
+      "gramosUnidades": "2x",
+      "autor": "Pedro",
+      "categoriaId": 3,
+      "id": 41
+    },
+    {
+      "title": "Bandeja de Carne Molida 500G",
+      "rutaImg": "./images/carnes4.png",
+      "precio": 5.60,
+      "RealPrice": 7.23,
+      "gramosUnidades": "500ml",
+      "autor": "Pedro",
+      "categoriaId": 3,
+      "id": 42
+    },
+    {
+      "title": "Botella de Cerveza Stella 600ml",
+      "rutaImg": "./images/cerveza-stella.png",
+      "precio": 2.60,
+      "RealPrice": 4.23,
+      "gramosUnidades": "600ml",
+      "autor": "Pedro",
+      "categoriaId": 8,
+      "id": 43
+    },
+    {
+      "title": "Lata de Cerveza Victoria 350ml",
+      "rutaImg": "./images/cerveza-victoria.png",
+      "precio": 2.30,
+      "RealPrice": 4.10,
+      "gramosUnidades": "350ml",
+      "autor": "Pedro",
+      "categoriaId": 8,
+      "id": 44
+    },
+    {
+      "title": "Tarro de Nescafe 100G",
+      "rutaImg": "./images/comida-basica1.png",
+      "precio": 1.42,
+      "RealPrice": 3.17,
+      "gramosUnidades": "100g",
+      "autor": "Pedro",
+      "categoriaId": 7,
+      "id": 45
+    },
+    {
+      "title": "Botella de Aceite de Avocado 1l",
+      "rutaImg": "./images/comida-basica2.png",
+      "precio": 5.70,
+      "RealPrice": 9.17,
+      "gramosUnidades": "1l",
+      "autor": "Pedro",
+      "categoriaId": 7,
+      "id": 46
+    },
+    {
+      "title": "Sobre de La Lechera 200ml",
+      "rutaImg": "./images/comida-basica3.png",
+      "precio": 3.10,
+      "RealPrice": 6.20,
+      "gramosUnidades": "200ml",
+      "autor": "Pedro",
+      "categoriaId": 7,
+      "id": 47
+    },
+    {
+      "title": "Paquete de Pastas 500G",
+      "rutaImg": "./images/comida-basica4.png",
+      "precio": 3.99,
+      "RealPrice": 6.99,
+      "gramosUnidades": "500G",
+      "autor": "Pedro",
+      "categoriaId": 7,
+      "id": 48
+    },
+    {
+      "title": "Tarro de Chocolate Untable 190G",
+      "rutaImg": "./images/comida-basica5.png",
+      "precio": 1.86,
+      "RealPrice": 3.40,
+      "gramosUnidades": "190G",
+      "autor": "Pedro",
+      "categoriaId": 7,
+      "id": 49
+    },
+    {
+      "title": "Lata de Bebida Energizante de Cafe Starbucks 443ml",
+      "rutaImg": "./images/energy-coffee.png",
+      "precio": 7.40,
+      "RealPrice": 10.40,
+      "gramosUnidades": "443ml",
+      "autor": "Pedro",
+      "categoriaId": 2,
+      "id": 50
+    },
+    {
+      "title": "Tarro de Helado de Chocolate 400ml",
+      "rutaImg": "./images/helado1.png",
+      "precio": 4.50,
+      "RealPrice": 7.30,
+      "gramosUnidades": "400ml",
+      "autor": "Pedro",
+      "categoriaId": 5,
+      "id": 51
+    },
+    {
+      "title": "Rollo de Helado de Fresa 400ml",
+      "rutaImg": "./images/helado2.png",
+      "precio": 5.40,
+      "RealPrice": 7.99,
+      "gramosUnidades": "400ml",
+      "autor": "Pedro",
+      "categoriaId": 5,
+      "id": 52
+    },
+    {
+      "title": "Caja de Helado de Limon 600ml",
+      "rutaImg": "./images/helado3.png",
+      "precio": 9.87,
+      "RealPrice": 11.25,
+      "gramosUnidades": "600ml",
+      "autor": "Pedro",
+      "categoriaId": 5,
+      "id": 53
+    },
+    {
+      "title": "Tarro de Helado de Taramisu 400ml",
+      "rutaImg": "./images/helado4.png",
+      "precio": 4.62,
+      "RealPrice": 6.37,
+      "gramosUnidades": "400ml",
+      "autor": "Pedro",
+      "categoriaId": 5,
+      "id": 54
+    },
+    {
+      "title": "Tarro de Helado de Fresa con Chicle 400ml",
+      "rutaImg": "./images/helado5.png",
+      "precio": 5.62,
+      "RealPrice": 7.37,
+      "gramosUnidades": "400ml",
+      "autor": "Pedro",
+      "categoriaId": 5,
+      "id": 55
+    },
+    {
+      "title": "Paqueitico de Helaod de Brownie 200ml",
+      "rutaImg": "./images/helado6.png",
+      "precio": 1.12,
+      "RealPrice": 3.53,
+      "gramosUnidades": "200ml",
+      "autor": "Pedro",
+      "categoriaId": 5,
+      "id": 56
+    },
+    {
+      "title": "Botella de Jugo Hit de Mango 350ml",
+      "rutaImg": "./images/hit.png",
+      "precio": 1.20,
+      "RealPrice": 2.40,
+      "gramosUnidades": "350ml",
+      "autor": "Pedro",
+      "categoriaId": 2,
+      "id": 57
+    },
+    {
+      "title": "Botella de Leche de Platano 400ml",
+      "rutaImg": "./images/leche-de-platano.png",
+      "precio": 3.30,
+      "RealPrice": 5.80,
+      "gramosUnidades": "400ml",
+      "autor": "Pedro",
+      "categoriaId": 2,
+      "id": 58
+    },
+    {
+      "title": "Bebida Hidratante Power 500ml",
+      "rutaImg": "./images/power.png",
+      "precio": 4.40,
+      "RealPrice": 7.20,
+      "gramosUnidades": "500ml",
+      "autor": "Pedro",
+      "categoriaId": 2,
+      "id": 59
+    },
+    {
+      "title": "Botella de Royal Salute 1L",
+      "rutaImg": "./images/royal-salute.png",
+      "precio": 15.80,
+      "RealPrice": 20.68,
+      "gramosUnidades": "1L",
+      "autor": "Pedro",
+      "categoriaId": 8,
+      "id": 60
+    },
+    {
+      "title": "Botella de Smirnoff de Manzana Verde 1L",
+      "rutaImg": "./images/smirnoff.png",
+      "precio": 30.10,
+      "RealPrice": 37.40,
+      "gramosUnidades": "1L",
+      "autor": "Pedro",
+      "categoriaId": 8,
+      "id": 61
+    },
+    {
+      "title": "Paquete de Rosquillas de Chocolotale x4",
+      "rutaImg": "./images/snacks1.png",
+      "precio": 3.70,
+      "RealPrice": 5.20,
+      "gramosUnidades": "x4",
+      "autor": "Pedro",
+      "categoriaId": 6,
+      "id": 62
+    },
+    {
+      "title": "Dedos de chocolate Nutella x8",
+      "rutaImg": "./images/snacks2.png",
+      "precio": 5.10,
+      "RealPrice": 7.15,
+      "gramosUnidades": "x8",
+      "autor": "Pedro",
+      "categoriaId": 6,
+      "id": 63
+    },
+    {
+      "title": "Bandeja de Sushi RAKU",
+      "rutaImg": "./images/snacks3.png",
+      "precio": 15.47,
+      "RealPrice": 19.60,
+      "gramosUnidades": "1x",
+      "autor": "Pedro",
+      "categoriaId": 6,
+      "id": 64
+    },
+    {
+      "title": "Media Bandeja de Sushi SHODA",
+      "rutaImg": "./images/snacks4.png",
+      "precio": 10.27,
+      "RealPrice": 14.32,
+      "gramosUnidades": "1x",
+      "autor": "Pedro",
+      "categoriaId": 6,
+      "id": 65
+    },
+    {
+      "title": "Paquete de Medio Sandwiche x1",
+      "rutaImg": "./images/snacks5.png",
+      "precio": 2.60,
+      "RealPrice": 4.10,
+      "gramosUnidades": "1x",
+      "autor": "Pedro",
+      "categoriaId": 6,
+      "id": 66
+    },
+    {
+      "title": "Bebida Energizante Speed Unlimited 400ml",
+      "rutaImg": "./images/speed.png",
+      "precio": 2.40,
+      "RealPrice": 4.09,
+      "gramosUnidades": "400ml",
+      "autor": "Pedro",
+      "categoriaId": 2,
+      "id": 67
+    },
+    {
+      "title": "Botella de Absolut Vodka 1L",
+      "rutaImg": "./images/vodka.png",
+      "precio": 25.13,
+      "RealPrice": 29.99,
+      "gramosUnidades": "1L",
+      "autor": "Pedro",
+      "categoriaId": 8,
+      "id": 68
+    }
+  ],
+  "categoria": [
+    {
+      "id": 1,
+      "nombre": "Vegetable & Fruit"
+    },
+    {
+      "id": 2,
+      "nombre": "Beverages"
+    },
+    {
+      "id": 3,
+      "nombre": "Meats & Seadfood"
+    },
+    {
+      "id": 4,
+      "nombre": "Breakfast & Dairy"
+    },
+    {
+      "id": 5,
+      "nombre": "Frozen Foods"
+    },
+    {
+      "id": 6,
+      "nombre": "Biscuits & Snacks"
+    },
+    {
+      "id": 7,
+      "nombre": "Grocery & Staples"
+    },
+    {
+      "id": 8,
+      "nombre": "Wines & Alcohol Drinks"
+    }
+  ],
+  "compradores": [
+
+  ],
+  "comprados": [
+
+  ]
+}
